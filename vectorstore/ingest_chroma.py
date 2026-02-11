@@ -12,7 +12,7 @@ os.makedirs(CHROMA_DIR, exist_ok=True)
 # Embedding model (local)
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
-# ✅ Persistent Chroma client (IMPORTANT)
+#  Persistent Chroma client (IMPORTANT)
 client = chromadb.PersistentClient(
     path=CHROMA_DIR
 )

@@ -1,0 +1,68 @@
+{
+  "document_id": "Cass_XXXXX",
+  "ID_PARTE_OFFESA": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "ID_INDAGATO": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "SESSO_INDAGATO": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "FASCIA_ETA_INDAGATO": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "FASCIA_ETA_PARTE_OFFESA": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "TIPO_RAPPORTO_AUTORE_VITTIMA": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "TIPO_RUOLO_AUTORE_VITTIMA": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "LUOGO_COMMESSO_REATO": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "PROVINCIA_COMMESSO_REATO": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "TIPO_ARMA": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "REATO": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "DESCRIZIONE_RICHIESTA": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  },
+  "DESCRIZIONE_ESITO": {
+    "value": "not mentioned",
+    "confidence": "not mentioned",
+    "evidence": ""
+  }
+}
