@@ -6,6 +6,21 @@ OUTPUT_DIR = "data/text_raw"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+
+# -----------------------------------------
+# STEP 1: Clear output directory completely
+# -----------------------------------------
+for filename in os.listdir(OUTPUT_DIR):
+    file_path = os.path.join(OUTPUT_DIR, filename)
+    if os.path.isfile(file_path):
+        os.remove(file_path)
+
+print("Output directory cleared.")
+
+
+# -----------------------------------------
+# Extract raw text from PDF
+# -----------------------------------------
 def extract_raw_text(pdf_path):
     pages_text = []
     with pdfplumber.open(pdf_path) as pdf:
@@ -15,6 +30,10 @@ def extract_raw_text(pdf_path):
                 pages_text.append(text)
     return "\n".join(pages_text)
 
+
+# -----------------------------------------
+# STEP 2: Process PDFs
+# -----------------------------------------
 for filename in os.listdir(INPUT_DIR):
     if filename.endswith(".pdf"):
         pdf_path = os.path.join(INPUT_DIR, filename)

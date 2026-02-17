@@ -7,6 +7,15 @@ OUTPUT_DIR = "data/chunks"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+
+# STEP 1: Clear output directory completely
+for filename in os.listdir(OUTPUT_DIR):
+    file_path = os.path.join(OUTPUT_DIR, filename)
+    if os.path.isfile(file_path):
+        os.remove(file_path)
+
+print("Output directory cleared.")
+
 MAX_CHARS = 1200
 
 SECTION_PATTERNS = {
