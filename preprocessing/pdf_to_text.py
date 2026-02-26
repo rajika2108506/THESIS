@@ -1,7 +1,7 @@
 import pdfplumber
 import os
 
-INPUT_DIR = "data/raw_pdfs"
+INPUT_DIR = "data/current_pdf"
 OUTPUT_DIR = "data/text_raw"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
